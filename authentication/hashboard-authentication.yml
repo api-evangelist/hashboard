@@ -1,0 +1,19 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.hashboard.com/docs/data-ops/quickstart
+docs: https://docs.hashboard.com/docs/data-ops/cli
+summary:
+  types: [apiKey]
+  api_key_in: [access-key-file]
+  note: >-
+    Hashboard is a BI-as-code product with no public REST API/OpenAPI. Programmatic
+    access is via the Hashboard CLI (hb) and the hashquery Python framework, both
+    authenticated with a downloaded access key rather than an HTTP securityScheme.
+schemes:
+  - name: accessKey
+    type: apiKey
+    description: >-
+      An access key downloaded via `hb token` through a web-based auth flow, stored
+      by default at ~/.hashboard/hb_access_key.json and used by the CLI and hashquery.
+    location: file (~/.hashboard/hb_access_key.json) or HASHBOARD_ env credentials
+    docs: https://docs.hashboard.com/docs/data-ops/quickstart
