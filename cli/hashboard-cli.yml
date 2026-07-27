@@ -1,0 +1,33 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.hashboard.com/docs/data-ops/cli
+name: Hashboard CLI
+binary: hb
+install:
+  - method: pip
+    command: pip install hashboard-cli
+package: packages/hashboard-packages.yml
+authentication:
+  method: access-key
+  flow: Run `hb token` for a web-based auth flow that downloads an access key.
+  key_location: ~/.hashboard/hb_access_key.json
+  docs: https://docs.hashboard.com/docs/data-ops/quickstart
+commands:
+  - name: init
+    description: Initialize a Hashboard code repository.
+  - name: build
+    description: Preview and apply changes to your project from code (preview builds and deploys).
+  - name: pull
+    description: Download and sync config files from existing Hashboard resources.
+  - name: token
+    description: Download an access key to authenticate the CLI client.
+  - name: cache
+    description: Manage cached resource data.
+  - name: datasource
+    description: Manage data sources in Hashboard.
+  - name: tables
+    description: List available tables in a connected database.
+flows:
+  - name: CI/CD deploy
+    description: Preview changes on a branch, review via pull request, and deploy with `hb build`/`hb deploy --git-revision=main` from GitHub Actions.
+    docs: https://docs.hashboard.com/docs/data-ops/continuous-integration

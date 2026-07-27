@@ -1,0 +1,13 @@
+generated: '2026-07-19'
+method: searched
+source: https://status.hashboard.com/
+versioning:
+  scheme: cli-semver
+  current: 'hashboard-cli 3.x'
+  docs: https://hashboard.com/blog/introducing-version-3-of-the-hashboard-cli
+status_page: https://status.hashboard.com/
+changelog: https://hashboard.com/changelog
+deprecation:
+  policy_url: null
+  sunset_header: false
+  note: No formal API deprecation policy published (no public REST API surface).

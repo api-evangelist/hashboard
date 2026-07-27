@@ -1,0 +1,27 @@
+# Hashboard
+
+> Hashboard is a business intelligence (BI) platform built around a BI-as-code workflow: data teams define their semantic layer, metrics, explorations, and dashboards as version-controlled configuration files and manage them with the Hashboard CLI (hb) and the hashquery Python framework. Changes are previewed, code-reviewed, and deployed through CI/CD. The hosted app delivers interactive dashboards and metric pages on top of the customer's own cloud data warehouse (query-based, no full data ingestion). Hashboard is SOC 2 Type II certified and supports HIPAA/BAAs. (Acquired by Hex Technologies.)
+
+## Docs
+- [Documentation home](https://docs.hashboard.com/): Product and developer documentation.
+- [Developer Reference (Data Ops)](https://docs.hashboard.com/docs/data-ops): BI-as-code, CLI, and CI/CD reference.
+- [CLI](https://docs.hashboard.com/docs/data-ops/cli): The `hb` command-line interface.
+- [CLI Quickstart](https://docs.hashboard.com/docs/data-ops/quickstart): Install and authenticate the CLI.
+- [Continuous Integration](https://docs.hashboard.com/docs/data-ops/continuous-integration): GitHub Actions / dbt Cloud integration.
+- [Security & Compliance](https://docs.hashboard.com/docs/getting-started/security): SOC 2 Type II and HIPAA posture.
+
+## Developer tools
+- [hashboard-cli on PyPI](https://pypi.org/project/hashboard-cli/): `pip install hashboard-cli` (binary `hb`).
+- [hashquery on PyPI](https://pypi.org/project/hashquery/): `pip install hashquery` (Python BI framework).
+- [hashquery on GitHub](https://github.com/hashboard-hq/hashquery): Source for the Python framework.
+- [GitHub organization](https://github.com/hashboard-hq): Official Hashboard repositories and examples.
+
+## Company
+- [Website](https://hashboard.com): Product overview.
+- [BI-as-Code](https://hashboard.com/bi-as-code): The code-based BI workflow.
+- [Pricing](https://hashboard.com/pricing): Plans and free trial.
+- [Blog](https://hashboard.com/blog): Product and company writing.
+- [Changelog](https://hashboard.com/changelog): Product updates.
+- [Status](https://status.hashboard.com/): Service status and uptime.
+- [Get access / sign up](https://hashboard.com/getAccess): Create an account.
+- [Terms & Privacy](https://hashboard.com/terms): Legal.

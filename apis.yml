@@ -1,9 +1,30 @@
 aid: hashboard
 name: Hashboard
-description: 'Hashboard is a company surfaced as a portfolio company of matrix-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: b2b. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Hashboard is a business intelligence (BI) platform built around a BI-as-code
+  workflow: data teams define their semantic layer, metrics, explorations, and
+  dashboards as version-controlled configuration files and manage them with the
+  Hashboard CLI (hb) and the hashquery Python framework. Changes are previewed,
+  code-reviewed, and deployed through CI/CD pipelines (GitHub Actions, dbt Cloud),
+  while the hosted app provides interactive dashboards, metric pages, and
+  self-serve data exploration on top of the customer's own cloud data warehouse
+  (query-based, with no full data ingestion into Hashboard infrastructure).
+  Hashboard is SOC 2 Type II certified and supports HIPAA compliance with BAAs.
+  Hashboard was acquired by Hex Technologies.
 url: https://raw.githubusercontent.com/api-evangelist/hashboard/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/143127110?v=4
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +33,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - B2B
+- Business Intelligence
+- Analytics
+- Data
+- BI-as-Code
+- Dashboards
+- Data Visualization
+- Developer Tools
+- CLI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,53 @@ maintainers:
 common:
 - type: Website
   url: https://hashboard.com
+- type: DeveloperPortal
+  url: https://docs.hashboard.com/
+- type: Documentation
+  url: https://docs.hashboard.com/
+- type: APIReference
+  url: https://docs.hashboard.com/docs/data-ops
+  name: Developer Reference (Data Ops)
+- type: GettingStarted
+  url: https://docs.hashboard.com/docs/data-ops/quickstart
+- type: CLI
+  url: cli/hashboard-cli.yml
+- type: Packages
+  url: packages/hashboard-packages.yml
+- type: SDKs
+  url: packages/hashboard-packages.yml
+- type: Authentication
+  url: authentication/hashboard-authentication.yml
+- type: Conformance
+  url: conformance/hashboard-conformance.yml
+- type: Compliance
+  url: https://docs.hashboard.com/docs/getting-started/security
+- type: Lifecycle
+  url: lifecycle/hashboard-lifecycle.yml
+- type: StatusPage
+  url: https://status.hashboard.com/
+- type: DomainSecurity
+  url: security/hashboard-domain-security.yml
+- type: LLMsTxt
+  url: llms/hashboard-llms.txt
+- type: ChangeLog
+  url: https://hashboard.com/changelog
+- type: Blog
+  url: https://hashboard.com/blog
+- type: GitHubOrganization
+  url: https://github.com/hashboard-hq
+- type: Support
+  url: mailto:support@hashboard.com
+- type: Pricing
+  url: https://hashboard.com/pricing
+- type: SignUp
+  url: https://hashboard.com/getAccess
+- type: TermsOfService
+  url: https://hashboard.com/terms
+- type: PrivacyPolicy
+  url: https://hashboard.com/terms
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

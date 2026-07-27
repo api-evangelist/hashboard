@@ -1,0 +1,22 @@
+generated: '2026-07-19'
+method: searched
+source: https://pypi.org/project/hashboard-cli/
+packages:
+  - language: python
+    registry: pypi
+    name: hashboard-cli
+    version: 3.2.4
+    url: https://pypi.org/project/hashboard-cli/
+    install: pip install hashboard-cli
+    binary: hb
+    official: true
+    description: Command-line tools for interacting with Hashboard (BI-as-code CLI).
+  - language: python
+    registry: pypi
+    name: hashquery
+    version: 0.3.0
+    url: https://pypi.org/project/hashquery/
+    install: pip install hashquery
+    repo: https://github.com/hashboard-hq/hashquery
+    official: true
+    description: Python framework for defining and querying BI models in your data warehouse; usable as a headless BI interface with Hashboard.

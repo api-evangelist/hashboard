@@ -1,0 +1,23 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.hashboard.com/docs/getting-started/security
+standards:
+  - id: soc2-type-ii
+    conforms: true
+    evidence: >-
+      Hashboard is SOC 2 Type II certified (Security and Compliance docs page);
+      SOC 2 report available on request via support@hashboard.com.
+  - id: hipaa
+    conforms: true
+    evidence: >-
+      Hashboard supports HIPAA compliance and signs Business Associate Agreements
+      (BAAs) at no additional charge.
+compliance_programs:
+  - name: SOC 2 Type II
+    url: https://docs.hashboard.com/docs/getting-started/security
+  - name: HIPAA / BAA
+    url: https://docs.hashboard.com/docs/getting-started/security
+security_features:
+  - Row- and column-level access controls
+  - Query-based architecture (no full data ingestion into Hashboard infrastructure)
+  - Configurable data caching for performance/freshness balance
